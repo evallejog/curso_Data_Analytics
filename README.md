@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto consiste en un análisis de datos integral de una cadena de restaurantes. Se consolidan datos dispersos en cuatro archivos independientes (productos, clientes y ventas de dos semanas) para generar indicadores clave que apoyen decisiones sobre el menú y estrategias de fidelización.
 
@@ -27,7 +27,7 @@ La cadena de restaurantes dispone de datos de:
 
 ---
 
-## 📊 Alcance del Análisis
+## Alcance del Análisis
 
 El análisis se enfoca en:
 - **Consolidación de fuentes:** Unión e integración de datos relacionales
@@ -41,7 +41,7 @@ El análisis se enfoca en:
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 lab-restaurant/
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Cómo Usar
+## Cómo Usar
 
 ### 1. Preparar el ambiente
 ```bash
@@ -104,7 +104,7 @@ El notebook genera automáticamente:
 
 ---
 
-## 📈 Resultados Principales
+## Resultados Principales
 
 El análisis incluye:
 
@@ -125,16 +125,16 @@ El análisis incluye:
 
 ---
 
-## 📄 Deliverables
+## Deliverables
 
-- ✅ Notebook Jupyter con análisis reproducible
-- ✅ Dataset consolidado (relaciones validadas)
-- ✅ Informe ejecutivo de una página
-- ✅ Visualizaciones en formato PDF/PNG
+- Notebook Jupyter con análisis reproducible
+- Dataset consolidado (relaciones validadas)
+- Informe ejecutivo de una página
+- Visualizaciones en formato PDF/PNG
 
 ---
 
-## 📚 Modelo Relacional
+## Modelo Relacional
 
 El proyecto implementa un modelo relacional simple:
 
@@ -150,18 +150,18 @@ Restaurant-Customers (ID_Cliente, Nombre, Email, Ciudad)
 
 ---
 
-## ✅ Buenas Prácticas Implementadas
+## Buenas Prácticas Implementadas
 
-- ✅ Código reproducible y documentado
-- ✅ Manejo de datos relacionales validado
-- ✅ Visualizaciones claras y profesionales
-- ✅ Comentarios explicativos en el código
-- ✅ Separación de datos (inputs) y resultados (outputs)
-- ✅ Documentación en archivo README
+- Código reproducible y documentado
+- Manejo de datos relacionales validado
+- Visualizaciones claras y profesionales
+- Comentarios explicativos en el código
+- Separación de datos (inputs) y resultados (outputs)
+- Documentación en archivo README
 
 ---
 
-## 👥 Contacto
+## Contacto
 
 Para preguntas o sugerencias sobre este proyecto, contactar a cualquiera de los autores:
 - **Esteban Vallejo Galeano**
@@ -170,7 +170,7 @@ Para preguntas o sugerencias sobre este proyecto, contactar a cualquiera de los 
 
 ---
 
-## 📝 Licencia
+## Licencia
 
 Este proyecto es parte de la asignatura Data Analytics de la Universidad Central.
 
