@@ -146,10 +146,21 @@ st.markdown("""
 # -----------------------------------------------------------------------------
 @st.cache_resource
 def cargar_modelo():
-    rutas = ["modelo_popularidad.pkl", os.path.join("Semana 9", "modelo_popularidad.pkl")]
+    rutas = [
+        os.path.join("models", "modelo.pkl"),
+        "models/modelo.pkl",
+        "modelo_popularidad.pkl"
+    ]
     for r in rutas:
         if os.path.exists(r):
-            return joblib.load(r)
+            obj = joblib.load(r)
+            # Si el artefacto cargado es un diccionario, extraemos el estimador/pipeline
+            if isinstance(obj, dict):
+                if "modelo" in obj:
+                    return obj["modelo"]
+                elif "pipeline" in obj:
+                    return obj["pipeline"]
+            return obj
     return None
 
 @st.cache_data
